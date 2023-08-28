@@ -95,7 +95,7 @@ const Navbar = () => {
                 </li>
                 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded bg-[#565f69]'>
-                    <a target='_blank' className='flex justify-between items-center w-full text-gray-300' href='https://drive.google.com/file/d/1_bkxjrt6CaLxshVA4t8FivBdfVSgHN1P/view?usp=share_link' >
+                    <a target='_blank' className='flex justify-between items-center w-full text-gray-300' href='https://drive.google.com/file/d/1bAqFSGzTbon22QL7QT7paRVRXqABzbBf/view?usp=drive_link' >
                         Resumé <BsFillPersonFill size={30} />
                     </a>
                 </li>
