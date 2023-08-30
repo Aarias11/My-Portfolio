@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaYoutube} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -91,6 +91,11 @@ const Navbar = () => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded bg-blue-400'>
                     <a target='_blank' className='flex justify-between items-center w-full text-gray-300' href='https://twitter.com/Alancodes11'>
                         Twitter <FaTwitter size={30} />
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded bg-red-400'>
+                    <a target='_blank' className='flex justify-between items-center w-full text-gray-300' href='https://www.youtube.com/@AlanCodes'>
+                        YouTube <FaYoutube size={30} />
                     </a>
                 </li>
                 
