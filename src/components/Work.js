@@ -4,6 +4,8 @@ import ledgerLiveproj from '../assets/ledgerLiveproj.png'
 import cryptosite from '../assets/cryptosite.png'
 import carsite from '../assets/carsite.png'
 import FuseDB from '../assets/FuseDB.png'
+import DashboardPic from '../assets/DashboardPic.png'
+import MoneyPulsePic from '../assets/MoneyPulsePic.png'
 
 const Work = () => {
   return (
@@ -15,6 +17,25 @@ const Work = () => {
             </div>
 {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                {/* Grid Item */}
+                <div style={{backgroundImage: `url(${MoneyPulsePic})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+React JS Application
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://moneypulseapp.web.app/' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/Aarias11/MoneyPulse-app' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
                 {/* Grid Item */}
                 <div style={{backgroundImage: `url(${FuseDB})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
@@ -28,6 +49,25 @@ React JS Application
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='/' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                 {/* Grid Item */}
+                 <div style={{backgroundImage: `url(${DashboardPic})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+React JS Application
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://dashboard-frontend-beta.vercel.app/' target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/Aarias11/Dashboard-Frontend' target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -112,6 +152,7 @@ React JS Application
                         </div>
                     </div>
                 </div>
+               
                 
                 {/* Grid Item */}
                 {/* <div style={{backgroundImage: `url(${netflixProj})`}}   className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> */}
